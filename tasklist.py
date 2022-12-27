@@ -3,9 +3,9 @@ import os
 import psutil
 import telebot
 import OPi.GPIO as GPIO
+from config import token
 
-
-key = ''
+key = config.token
 
 bot = telebot.TeleBot(key, parse_mode=None)
 
