@@ -5,7 +5,7 @@ import telebot
 import OPi.GPIO as GPIO
 
 
-key = '5812992790:AAGmAYiCh5ftUF5qBdeaLHc-clf3PhnYgmM'
+key = ''
 
 bot = telebot.TeleBot(key, parse_mode=None)
 
