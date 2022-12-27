@@ -5,9 +5,7 @@ import telebot
 import OPi.GPIO as GPIO
 from config import token
 
-key = config.token
-
-bot = telebot.TeleBot(key, parse_mode=None)
+bot = telebot.TeleBot(token, parse_mode=None)
 
 PORT=5
 GPIO.setmode(GPIO.BOARD)
